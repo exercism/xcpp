@@ -625,6 +625,18 @@
         "strings",
         "text_formatting"
       ]
+    },
+    {
+      "slug": "levenshtein-distance",
+      "uuid": "5afac226-00e5-47b7-a8fa-75d0392cde4e",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 5,
+      "topics": [
+        "algorithms",
+        "strings",
+        "transforming"
+      ]
     }
   ]
 }
