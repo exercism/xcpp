@@ -206,11 +206,11 @@ TEST_CASE("equal_tests")
 
         if (e.expected) {
             INFO(errorMsg(string(clock1), string(clock2), e.msg));
-            REQUIRE(clock1 == clock2);
+            REQUIRE(!(clock1 != clock2));
         }
         else {
             INFO("[" << string(clock1) << " == " << string(clock2) << "] test case: " << e.msg);
-            REQUIRE(clock1 != clock2);
+            REQUIRE(!(clock1 == clock2));
         }
     }
 }
